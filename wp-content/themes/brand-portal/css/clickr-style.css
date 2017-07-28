@@ -1,0 +1,86 @@
+
+/* general styles ========= */
+h1 {font-size:3rem; color:#cc0000; font-weight:bold; margin:50px 0 20px 0;}
+body {
+
+    font-family:'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    /*font-size:16px;*/
+}
+p {margin:20px 0; padding:0px 20px;}
+.red {color:#cc0000;}
+
+
+/* about page =========== */
+.about-container{    text-align:center; }
+.abt-map {background-color:#F5F5F6; padding-top:1px; margin-top:20px; padding-bottom:20px;}
+.abt-stats {background-color:#E6E6E7; padding:30px; text-align:left;}
+.abt-statbox { font-weight:bold; margin-bottom:20px;}
+.abt-statbox label {font-size:2rem;}
+.abt-statbox .abt-figures {font-size:6rem; line-height:5rem; margin-bottom: 5px;}
+.abt-statbox .abt-figures span {font-size:4rem;}
+
+.abt-grey {color:#666666;}
+.abt-red {color:#C7000F;}
+.abt-border{border-right:3px solid #000; border-left:3px solid #000; padding-left:40px; padding-right:20px; margin-right:20px;}
+.counter {display:inline;}
+
+
+/* dbs house page =========== */
+.dbs-house-container{ text-align:center;}
+.hse-keyvisual {background:url('../clickr-assets/img/housebg.jpg') no-repeat; background-size:cover; background-position:bottom center; min-height: 530px; position:relative; padding-left:200px;}
+
+.hse-keyvisual div {position:absolute;}
+.hse-keyvisual .house {width:60%; height:100%; background-size:contain; }
+.hse-keyvisual .house img {width: 539px; max-width: 100%; height: auto;}
+map area {outline:0px; border:0px;}
+#housetxt {right:15%; bottom:10%; text-align: left; color:#fff; line-height:2.5rem;}
+#house2, #house3 {display:none;}
+
+.hse-infoarea {background:#f3f3f4; padding:30px; margin-bottom:40px;}
+#hse-tabnav {min-height:50px;}
+#hse-tabnav li {width:auto; display:inline-block; margin:0 10px;}
+#hse-tabnav li a {border-bottom: 3px solid #333; width:auto; display:inline; color:#333; transition: all 0.1s ease;}
+#hse-tabnav li a:hover {background:none;}
+#hse-tabnav li.active a {border-bottom-color: #cc0000; color:#cc0000; font-weight:bold; background:none;}
+.hse-infoarea h3 {font-size:2rem; font-weight:bold; margin-top:50px;}
+.hse-infoarea hr {border-color: #333; width:10%;}
+.hse-infoarea .tab-content #tab1 p {padding:0 100px;}
+.hse-infoarea .tab-content #tab2 p {padding-right:50px;}
+.hse-infoarea .tab-content #tab3 p {padding:0 100px;}
+.hse-pillars {width:20%; float:left; line-height:1.8rem; margin:20px 0;}
+.hse-pillars img {margin:0 auto;}
+.hse-pillars div {margin-top:10px;}
+
+.hse-infoarea .tab-content #tab3 img {margin:0 auto;}
+#hse-stories {padding:0 40px;}
+#hse-stories .row {margin-bottom:40px;}
+#hse-stories label {color:#cc0000; min-height:80px; display:block;}
+#hse-stories a {font-weight:bold; color:#333;}
+#hse-stories .border {border-left:2px solid #333; border-right:2px solid #333;}
+
+
+.backtotop {clear:both; float:right; margin:60px 0 30px 0; font-weight:bold; line-height:22px; cursor: pointer;}
+
+
+@media (max-width: 767px) { 
+    h1 {font-size:2.3rem; margin-top:30px;}
+    .abt-border {margin:0px; border:0px; padding:0px;}
+
+    .hse-keyvisual {min-height:400px;}
+    .hse-keyvisual .house {width:90%; margin:0 auto;}
+
+    #hse-tabnav li  {margin-bottom:20px;}
+    .hse-infoarea .tab-content #tab1 p {padding:0 10px;}
+    .hse-infoarea .tab-content #tab2 p {padding-right:10px; text-align: center;}
+    .hse-infoarea .tab-content #tab2 .text-right {text-align:center;}
+    .hse-infoarea .tab-content #tab3 p {padding:0 10px;}
+    #hse-asian {overflow:auto; }
+    .hse-pillars {width:33%;}
+    #hse-stories .border {border:0px;}
+    #hse-stories .row {margin-bottom:0px;}
+    #hse-stories .storybox {margin-bottom:30px; border-top:2px solid #333; padding-top:30px;}
+}
+
+
+
+
