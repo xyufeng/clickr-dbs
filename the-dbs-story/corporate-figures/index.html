@@ -47,8 +47,8 @@
                 <span class="glyphicon glyphicon-search" aria-hidden="true" style="color:#fff;"></span>
                 <span class="search-and-mail-seperator">I</span>
                 <a href="mailto:gsmc@dbs.com" class="gsmc-mail">
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true" style="color:#fff;"></span> ASK GSMC
-				</a>
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true" style="color:#fff;"></span> ASK GSMC
+                </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -115,7 +115,7 @@
                                 </p>
                             </div>
                             <div class="col-sm-6 text-left">
-                            	2016
+                                2016
                             </div>
                         </div>
                     </div>
@@ -156,16 +156,16 @@
     <script type="text/html" id="tmpl-wp-playlist-item">
         <div class="wp-playlist-item">
             <a class="wp-playlist-caption" href="{{ data.src }}">
-			{{ data.index ? ( data.index + '. ' ) : '' }}
-			<# if ( data.caption ) { #>
-				{{ data.caption }}
-			<# } else { #>
-				<span class="wp-playlist-item-title">&#8220;{{{ data.title }}}&#8221;</span>
-				<# if ( data.artists && data.meta.artist ) { #>
-				<span class="wp-playlist-item-artist"> &mdash; {{ data.meta.artist }}</span>
-				<# } #>
-			<# } #>
-		</a>
+            {{ data.index ? ( data.index + '. ' ) : '' }}
+            <# if ( data.caption ) { #>
+                {{ data.caption }}
+            <# } else { #>
+                <span class="wp-playlist-item-title">&#8220;{{{ data.title }}}&#8221;</span>
+                <# if ( data.artists && data.meta.artist ) { #>
+                <span class="wp-playlist-item-artist"> &mdash; {{ data.meta.artist }}</span>
+                <# } #>
+            <# } #>
+        </a>
             <# if ( data.meta.length_formatted ) { #>
                 <div class="wp-playlist-item-length">{{ data.meta.length_formatted }}</div>
                 <# } #>
