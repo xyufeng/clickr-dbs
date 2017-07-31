@@ -141,6 +141,16 @@
     .a-strong-dbs-team img.visual {
         max-width: 500px;
     }
+
+
+    .corporate-figures-header {
+        background: url('../images/corporate-figures/bg-header.jpg') no-repeat center;
+        background-size: cover;
+        min-height: 225px;        
+        padding-top:70px;
+    }
+    .corporate-figures-header .subheading{margin-bottom:20px;}
+    .corporate-figures-header .heading{font-size:55px;line-height: 60px;letter-spacing: -2px;}
 }
 
 @media(max-width:769px) {
