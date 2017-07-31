@@ -42,7 +42,7 @@
     }
     .a-strong-dbs-team img.visual,
     .our-pride-values img.visual {
-        max-width: 300px;
+        max-width: 300px !important; 
         margin-top: 50px;
         margin-bottom: 50px;
     }
