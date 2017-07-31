@@ -1,3 +1,4 @@
+p{font-size:20px;}
 .red {
     color: #e00000;
 }
@@ -12,6 +13,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.heading, .subheading{padding-left:20px;}
+
+    .pride {
+        background: #f4f0ea;        
+        padding-top: 75px;
+        padding-bottom: 75px;
+        margin-bottom:100px;
+    }
+
 
 @media(max-width: 480px) {
     .build-a-start-up-culture .subheading {
@@ -44,8 +54,12 @@
     .pride img,
     .a-strong-dbs-team img.visual,
     .our-pride-values img.visual {
-        max-width: 300px !important; 
-        margin-top: 50px;
+        max-width: 320px !important; 
+        
+    }
+    .a-strong-dbs-team img.visual,
+    .our-pride-values img.visual {
+    margin-top: 50px;
         margin-bottom: 50px;
     }
     .pride .heading,
@@ -61,16 +75,10 @@
     .our-pride-values p {
         font-size: 18px;
         line-height: 25px;
-        text-align: center;
     }
 
 
-    .pride {
-        background: url('../images/building-a-start-up-culture/bg-pride.jpg') center;
-        background-size: 20px 100%;
-        min-height: 80vh;
-        padding-top: 100px;
-    }
+
     .pride .subheading {
         font-size: 17px;
         margin-bottom: 60px;
@@ -113,7 +121,7 @@
     .a-strong-dbs-team .heading,
     .our-pride-values .heading {
         font-size: 49px;
-        padding-left: 20px;
+     /*   padding-left: 20px;*/
     }
     .a-strong-dbs-team p,
     .our-pride-values p {
@@ -121,12 +129,7 @@
         font-size: 17px;
         line-height: 30px;
     }
-    .pride {
-        background: url('../images/building-a-start-up-culture/bg-pride.jpg') center;
-        background-size: 20px 100%;
-        min-height: 720px;
-        padding-top: 100px;
-    }
+    
     .pride .subheading {
         font-size: 24px;
         margin-bottom: 60px;
@@ -134,7 +137,7 @@
         max-width: 860px;
     }
     .pride img {
-        max-width: 975px;
+        max-width: 1200px;
     }
 
     .a-strong-dbs-team {
