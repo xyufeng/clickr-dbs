@@ -82,14 +82,14 @@
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="milestones">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-3">
+                        <div class="col-xs-12 col-sm-4 col-md-9">
                             <div class="select-country">
                                 <div class="header text-center">
                                     Select Country
                                 </div>
                                 <ul class="countries">
                                     <li class="active">
-                                        <a href="#" data-target=".milestone-country" data-country="china">
+                                        <a href="#" data-target=".milestone-country" data-country=".china">
                                             China 
                                             <img src="../../wp-content/themes/brand-portal/images/corporate-figures/flag-china.png" class="pull-right" />
                                             <img src="../../wp-content/themes/brand-portal/images/corporate-figures/flag-china-bw.png" class="pull-right bw" />
@@ -135,7 +135,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-9">
+                        <div class="col-xs-12 col-sm-8 col-md-9">
                             <!--China-->
                             <div class="milestone-country clearfix china active">
                                 <h1 class="red text-center text-uppercase">China</h1>
@@ -257,7 +257,7 @@
                 <!--End Coporate Wide Figures-->
                 <div role="tabpanel" class="tab-pane" id="figures-by-country">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-3">
+                        <div class="col-xs-12 col-sm-4 col-md-3">
                             <div class="select-country">
                                 <div class="header text-center">
                                     Select Country
@@ -310,7 +310,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-9">
+                        <div class="col-xs-12 col-sm-8 col-md-9">
                             <div class="figures-by-country-single china active">
                                 <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-cities.jpg" class="chart img-responsive center-block" />
                                 <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-employees.jpg" class="chart img-responsive center-block" />
@@ -373,12 +373,12 @@
                                 </h4>
                             <div class="corporate-figures-menu-mobile milestones-country-mobile text-center styled-select">
                                 <select id="select-country">
-                                    <option value="china">China</option>
-                                    <option value="hongkong">Hong Kong</option>
-                                    <option value="india">India</option>
-                                    <option value="Indonesia">Indonesia</option>
-                                    <option value="singapore">Singapore</option>
-                                    <option value="taiwan">Taiwan</option>
+                                    <option value="china" data-target="#milestones-mobile .milestone-country">China</option>
+                                    <option value="hongkong" data-target="#milestones-mobile .milestone-country">Hong Kong</option>
+                                    <option value="india" data-target="#milestones-mobile .milestone-country">India</option>
+                                    <option value="indonesia" data-target="#milestones-mobile .milestone-country">Indonesia</option>
+                                    <option value="singapore" data-target="#milestones-mobile .milestone-country">Singapore</option>
+                                    <option value="taiwan" data-target="#milestones-mobile .milestone-country">Taiwan</option>
                                 </select>
                             </div>
                         </div>
@@ -429,7 +429,7 @@
                                 <h1 class="red text-center text-uppercase">Hong Kong</h1>
                                 <p class="text-center subheading">DBS has been innovating for nearly 50 years, with many achievements and milestones for the bank. We've collected some of our finest moment here. Do scroll through them and enjoy!</p>
                                 <div class="col-xs-12 col-sm-6 text-center">
-                                    Awaiting Hongkong Data
+                                    Awaiting Data
                                 </div>
                             </div>
                             <!--End Hong Kong-->
@@ -438,10 +438,37 @@
                                 <h1 class="red text-center text-uppercase">India</h1>
                                 <p class="text-center subheading">DBS has been innovating for nearly 50 years, with many achievements and milestones for the bank. We've collected some of our finest moment here. Do scroll through them and enjoy!</p>
                                 <div class="col-xs-12 col-sm-6 text-center">
-                                    Awaiting India Data
+                                    Awaiting Data
                                 </div>
                             </div>
                             <!--End India-->
+                            <!--Indonesia-->
+                            <div class="milestone-country clearfix indonesia">
+                                <h1 class="red text-center text-uppercase">Indonesia</h1>
+                                <p class="text-center subheading">DBS has been innovating for nearly 50 years, with many achievements and milestones for the bank. We've collected some of our finest moment here. Do scroll through them and enjoy!</p>
+                                <div class="col-xs-12 col-sm-6 text-center">
+                                    Awaiting Data
+                                </div>
+                            </div>
+                            <!--End Indonesia-->
+                            <!--Singapore-->
+                            <div class="milestone-country clearfix singapore">
+                                <h1 class="red text-center text-uppercase">Singapore</h1>
+                                <p class="text-center subheading">DBS has been innovating for nearly 50 years, with many achievements and milestones for the bank. We've collected some of our finest moment here. Do scroll through them and enjoy!</p>
+                                <div class="col-xs-12 col-sm-6 text-center">
+                                    Awaiting Data
+                                </div>
+                            </div>
+                            <!--End Singapore-->
+                            <!--Taiwan-->
+                            <div class="milestone-country clearfix taiwan">
+                                <h1 class="red text-center text-uppercase">Taiwan</h1>
+                                <p class="text-center subheading">DBS has been innovating for nearly 50 years, with many achievements and milestones for the bank. We've collected some of our finest moment here. Do scroll through them and enjoy!</p>
+                                <div class="col-xs-12 col-sm-6 text-center">
+                                    Awaiting Data
+                                </div>
+                            </div>
+                            <!--End Taiwan-->
                         </div>
                     </div>
                 </div>
@@ -465,7 +492,7 @@
                     <div class="row">
                         <div class="col-xs-12 text-center">
                             <h1 class="heading red text-center text-uppercase">CORPORATE-WIDE FIGURES</h1>
-                            <div class="corporate-wide-figures-single ibg">
+                            <div class="corporate-wide-figures-single ibg bu active">
                                 <img src="../../wp-content/themes/brand-portal/images/corporate-figures/biz-unit-ibg.jpg" class="chart img-responsive center-block" />
                             </div>
                         </div>
@@ -480,12 +507,12 @@
                                 </h4>
                             <div class="corporate-figures-menu-mobile figures-country-mobile text-center styled-select">
                                 <select id="select-country">
-                                    <option value="china">China</option>
-                                    <option value="hongkong">Hong Kong</option>
-                                    <option value="india">India</option>
-                                    <option value="Indonesia">Indonesia</option>
-                                    <option value="singapore">Singapore</option>
-                                    <option value="taiwan">Taiwan</option>
+                                    <option value="china" data-target="#figures-by-country-mobile .figures-by-country-single">China</option>
+                                    <option value="hongkong" data-target="#figures-by-country-mobile .figures-by-country-single">Hong Kong</option>
+                                    <option value="india" data-target="#figures-by-country-mobile .figures-by-country-single">India</option>
+                                    <option value="Indonesia" data-target="#figures-by-country-mobile .figures-by-country-single">Indonesia</option>
+                                    <option value="singapore" data-target="#figures-by-country-mobile .figures-by-country-single">Singapore</option>
+                                    <option value="taiwan" data-target="#figures-by-country-mobile .figures-by-country-single">Taiwan</option>
                                 </select>
                             </div>
                         </div>
@@ -493,7 +520,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h1 class="red text-center heading">FIGURES BY COUNTRY</h1>
-                            <div class="figures-by-country-single china">
+                            <div class="figures-by-country-single china active">
                                 <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-cities.jpg" class="chart img-responsive center-block" />
                                 <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-employees.jpg" class="chart img-responsive center-block" />
                             </div>
@@ -601,11 +628,13 @@
             var target = jQuery(this).val();
             jQuery(".tab-pane").removeClass("active");
             jQuery(".tab-pane#" + target).addClass("active");
-        });
-        jQuery(".milestones-country-mobile #select-country").on("change", function() {
-            var target = jQuery(this).val();
-            jQuery("#milestones-mobile .milestone-country").removeClass("active");
-            jQuery("#milestones-mobile .milestone-country." + target).addClass("active");
+            return false;
+        })
+        jQuery(".corporate-figures-menu-mobile #select-country").on("change", function() {
+            var country = jQuery(this).val();
+            var target = jQuery(this).find(":selected").attr("data-target");        
+            jQuery(target).removeClass("active");
+            jQuery(target + "." + country).addClass("active");
 
             return false;
         })

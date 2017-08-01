@@ -440,7 +440,7 @@
             }
             div.styled-select {
                 margin: 10px;
-                background: url('../images/corporate-figures/arrow.jpg') no-repeat 92% 50%;
+                background: #ffffff url('../images/corporate-figures/arrow.jpg') no-repeat 92% 50%;
                 background-size: 10px 5px;
                 height: 65px;
                 overflow: hidden;
@@ -495,4 +495,8 @@
                 .pride img {
                     max-width: 600px;
                 }
+                .figures-by-country-single img {
+                max-width: 100% !important;
+                margin-bottom: 120px;
+            }
             }
