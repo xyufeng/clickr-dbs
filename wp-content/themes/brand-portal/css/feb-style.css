@@ -1,502 +1,520 @@
-            @font-face {
-            font-family: 'FrutigerLT-BoldCn';
-            src: url('../fonts/FrutigerLT-BoldCn.eot');
-            src: url('../fonts/FrutigerLT-BoldCn.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/FrutigerLT-BoldCn.woff') format('woff'),
-            url('../fonts/FrutigerLT-BoldCn.ttf') format('truetype');
-            font-weight: bold;
-            font-style: normal;
-        }
-
-
-        body {
-            font-family: 'FrutigerLT-Roman', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-        }
-
-        p {
-            font-size: 20px;
-        }
-
-        .red {
-            color: #e00000;
-        }
-
-        .no-padding {
-            padding-left: 0px !important;
-            padding-right: 0px !important;
-        }
-
-        .v-align {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        h1,.heading {
-            font-family: 'FrutigerLT-BoldCn', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif
-        }
-
-
-
-        .pride {
-            background: #f4f0ea;
-            padding-top: 75px;
-            padding-bottom: 75px;
-            margin-bottom: 70px;
-        }
-
-        .milestone-country {
-            display: none;
-        }
-
-        .milestone-country.active {
-            display: block;
-        }
-
-        .figures-by-country-single {
-            display: none;
-        }
-
-        .figures-by-country-single.active {
-            display: block;
-        }
-
-        @media(max-width: 480px) {
-            .build-a-start-up-culture .subheading {
-                font-size: 17px;
-                line-height: 25px;
-                max-width: 200px;
-                margin-bottom: 30px;
+                @font-face {
+                font-family: 'FrutigerLT-BoldCn';
+                src: url('../fonts/FrutigerLT-BoldCn.eot');
+                src: url('../fonts/FrutigerLT-BoldCn.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/FrutigerLT-BoldCn.woff') format('woff'),
+                url('../fonts/FrutigerLT-BoldCn.ttf') format('truetype');
+                font-weight: bold;
+                font-style: normal;
             }
+
+
+            body {
+                font-family: 'FrutigerLT-Roman', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .red {
+                color: #e00000;
+            }
+
+            .no-padding {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+
+            .v-align {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            h1,
             .heading {
-                font-size: 50px;
-                line-height: 50px;
-            }
-            .build-a-start-up-culture p {
-                font-size: 17px;
-                line-height: 25px;
-                text-align: center;
-            }
-
-            .build-a-start-up-culture {
-                background: url('../images/building-a-start-up-culture/bg-rocket-mobile.jpg') no-repeat bottom;
-                background-size: 100% auto;
-                padding-top: 50px;
-                padding-bottom: 180px;
-            }
-            .our-pride-values {
-                padding-top: 70px;
-                padding-bottom: 70px;
-            }
-            /*.images img,*/
-            .pride img,
-            .a-strong-dbs-team img.visual,
-            .our-pride-values img.visual {
-                /*max-width: 320px !important;*/
-            }
-            .a-strong-dbs-team img.visual,
-            .our-pride-values img.visual {
-                margin-top: 50px;
-                margin-bottom: 50px;
-            }
-            .pride .heading,
-            .a-strong-dbs-team .heading,
-            .our-pride-values .heading {
-                font-size: 45px;
-                text-align: center;
-                margin-bottom: 50px;
-                line-height: 42px;
-                letter-spacing: -2px
-            }
-            .a-strong-dbs-team p,
-            .our-pride-values p {
-                font-size: 18px;
-                line-height: 25px;
+                font-family: 'FrutigerLT-BoldCn', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif
             }
 
 
 
-            .pride .subheading {
-                font-size: 17px;
-                margin-bottom: 60px;
-                line-height: 34px;
-                max-width: 860px;
+            .pride {
+                background: #f4f0ea;
+                padding-top: 75px;
+                padding-bottom: 75px;
+                margin-bottom: 70px;
             }
-
-            .a-strong-dbs-team {
-                padding-bottom: 50px;
-            }
-
-
-            .corporate-figures-header {
-                background: url('../images/corporate-figures/bg-header-mobile.jpg') no-repeat bottom;
-                background-size: contain;
-                padding-top: 60px;
-                padding-bottom: 140px;
-            }
-            .corporate-figures-header .subheading {
-                font-size: 18px;
-                margin-bottom: 30px;
-                padding-left: 0px;
-            }
-            .corporate-figures-header .heading {
-                font-size: 52px;
-                padding-left: 0px;
-            }
-            .select-holders {
-                background-color: #f4f0ea;
-                border-top: 1px solid #000000;
-                padding-top: 40px;
-                padding-bottom: 40px;
-            }
-
-
-            .corporate-figures-menu-mobile.styled-select {
-                margin: 10px;
-                background: #ffffff url('../images/corporate-figures/arrow.jpg') no-repeat 92% 50%;
-                background-size: 10px 5px;
-                height: 40px;
-                overflow: hidden;
-                width: 90%;
-                border: 1px solid #ebebeb;
-                display: inline-block;
-            }
-            .corporate-figures-menu-mobile.styled-select select {
-                background: transparent;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                outline: none !important;
-                border: none;
-                font-size: 18px;
-                height: 40px;
-                padding: 5px;
-                /* If you add too much padding here, the options won't show in IE */
-                width: 95%;
-            }
-
 
             .milestone-country {
-                padding-bottom: 30px;
                 display: none;
             }
+
             .milestone-country.active {
                 display: block;
             }
-            .milestone-country .subheading {
-                color: #000000;
-                font-size: 17px;
-                line-height: 25px;
-            }
-            .milestone-country h1 {
-                margin-top: 70px;
-                font-size: 42px;
-                margin-bottom: 40px;
-            }
-            .milestone-country h3 {
-                margin-top: 24px;
-                font-size: 40px;
-                color: #e00000
-            }
-            .milestone-country p {
-                font-size: 16px;
-                color: #777777;
-                line-height: 22px;
-                padding-right: 0px;
-                padding-left: 0px;
-                margin-bottom: 30px;
-            }
 
-
-            .figures-by-country-single img {
-                max-width: 600px !important;
-                margin-bottom: 120px;
-            }
-
-
-
-            #corporate-wide-figures {
-                padding-bottom: 120px;
-            }
-
-            .tab-pane .heading {
-                margin-top: 50px;
-                font-size: 36px;
-                margin-bottom: 50px;
-                line-height: 42px;
-            }
-            .tab-pane img {
-                max-width: 340px !important;
-            }
-            .tab-pane img.chart {
-                margin-bottom: 70px;
-            }
-        }
-
-        @media(min-width:768px) {
-
-            .subheading {
-                font-size: 20px;
-                margin-bottom: 30px;
-                
-            }
-            .heading {
-                font-size: 80px;
-                line-height: 72px;
-                
-            }
-
-            .build-a-start-up-culture {
-                background: url('../images/building-a-start-up-culture/bg-rocket.jpg') center;
-                background-size: cover;
-                min-height: 720px;
-                padding-top: 100px;
-            }
-            .our-pride-values {
-                min-height: 720px;
-                background: url('../images/building-a-start-up-culture/bg-spark.jpg') no-repeat center;
-                background-size: contain;
-                min-height: 720px;
-                padding-top: 100px;
-                padding-bottom: 100px;
-            }
-            .our-pride-values img.visual {
-                max-width: 400px;
-            }
-            .a-strong-dbs-team .heading,
-            .our-pride-values .heading {
-                font-size: 49px;                
-            }
-            .a-strong-dbs-team .heading,.a-strong-dbs-team .subheading{padding-left: 20px}
-            .a-strong-dbs-team p,
-            .our-pride-values p {
-                color: #777777;
-                font-size: 17px;
-                line-height: 30px;
-            }
-
-            .pride .subheading {
-                font-size: 24px;
-                margin-bottom: 60px;
-                line-height: 34px;
-                max-width: 860px;
-            }
-            .pride img {
-                max-width: 1200px;
-            }
-
-            .a-strong-dbs-team {
-                padding-bottom: 200px;
-            }
-            .a-strong-dbs-team img.visual {
-                max-width: 500px;
-            }
-
-
-            .corporate-figures-header {
-                background: url('../images/corporate-figures/bg-header.jpg') no-repeat center;
-                background-size: cover;
-                min-height: 225px;
-                padding-top: 70px;
-            }
-            .corporate-figures-menu {
-                margin-bottom: 80px;
-                border-top: 1px solid #ebebeb;
-                border-bottom: 1px solid #ebebeb;
-                padding-top: 16px;
-                padding-bottom: 16px;
-            }
-            .corporate-figures-menu a {
-                font-size: 18px;
-                color: #000000;
-                margin: 0 20px;
-                padding-bottom: 16px;
-            }
-            .corporate-figures-menu a.active {
-                color: #e00000;
-                border-bottom: 3px solid #e00000;
-                text-decoration: none;
-            }
-            .corporate-figures-header .subheading {
-                margin-bottom: 5px;
-            }
-            .corporate-figures-header .heading {
-                font-size: 55px;
-                line-height: 60px;
-                letter-spacing: -2px;
-            }
-
-            .select-country {
-                box-shadow: 0px 5px 15px #efefef;
-                border-radius: 5px;
-                overflow: hidden;
-                display: inline-block;
-                min-width: 200px;
-            }
-            .select-country .header {
-                background: #000000;
-                color: #ffffff;
-                font-size: 16px;
-                padding-top: 16px;
-                padding-bottom: 16px;
-            }
-            ul.countries {
-                margin: 0;
-                list-style-type: none;
-                padding: 0;
-            }
-            ul.countries li {}
-            ul.countries li.active,
-            ul.countries li:hover {
-                background-color: #ebebeb;
-            }
-            ul.countries li a {
-                font-size: 16px;
-                color: #bcbcbc;
-                display: block;
-                padding: 15px 30px;
-            }
-            ul.countries li:hover a {
-                text-decoration: none;
-            }
-            ul.countries li a img {
-                max-width: 21px;
-            }
-            ul.countries li a img {
+            .figures-by-country-single {
                 display: none;
             }
-            ul.countries li a img.bw {
+
+            .figures-by-country-single.active {
                 display: block;
             }
-
-            ul.countries li.active a img {
-                display: block;
-            }
-            ul.countries li.active a img.bw {
-                display: none;
-            }
-            #milestones {
-                background-image: url('../images/corporate-figures/spark-1.jpg'), url('../images/corporate-figures/spark-2.jpg');
-                background-position: left 500px, right 80%;
-                background-repeat: no-repeat, no-repeat;
-                background-size: 130px 130px, 75px 75px;
-            }
-            #corporate-wide-figures {
-                background-image: url('../images/corporate-figures/spark-3.jpg'), url('../images/corporate-figures/spark-4.jpg');
-                background-position: left 50px, right 80%;
-                background-repeat: no-repeat, no-repeat;
-                background-size: 70px 70px, 120px 120px;
-            }
-
-            #figures-by-country {
-                background-image: url('../images/corporate-figures/spark-4.jpg');
-                background-position: 10% 500px;
-                background-repeat: no-repeat;
-                background-size: 130px 135px;
-            }
-
-            .corporate-figures-country {}
-            .milestone-country h1 {
-                font-size: 40px;
-                margin-top: 0px;
-            }
-            .milestone-country h3 {
-                font-size: 28px;
-                color: #000000;
-            }
-            .milestone-country p {
-                font-size: 15px;
-                color: #777777;
-                line-height: 22px;
-                padding-right: 0px;
-                padding-left: 0px;
-                margin-bottom: 90px;
-            }
-            .milestone-country .text-right {
-                padding-right: 35px;
-                padding-bottom: 130px;
-            }
-            .milestone-country .text-left {
-                border-left: 2px solid #000000;
-                padding-left: 35px;
-            }
-            .milestone-country img {
-                max-width: 200px !important;
-            }
-            .figures-by-country-single img {
-                max-width: 600px !important;
-                margin-bottom: 120px;
-            }
-
-
-
-            #corporate-wide-figures {
-                padding-bottom: 120px;
-            }
-            .corporate-wide-figures-single img {
-                max-width: 700px !important;
-            }
-            .corporate-wide-figures-selects {
-                margin-bottom: 70px;
-            }
-            div.styled-select {
-                margin: 10px;
-                background: #ffffff url('../images/corporate-figures/arrow.jpg') no-repeat 92% 50%;
-                background-size: 10px 5px;
-                height: 65px;
-                overflow: hidden;
-                width: 300px;
-                border: 1px solid #ebebeb;
-                display: inline-block;
-            }
-            .corporate-wide-figures-selects div.styled-select.select-1 {
-                border-top-left-radius: 20px;
-                border-bottom-left-radius: 20px;
-                padding-left: 35px;
-            }
-            .corporate-wide-figures-selects div.styled-select.select-2 {
-                background-position: 90% 50%;
-                border-top-right-radius: 20px;
-                border-bottom-right-radius: 20px;
-                padding-right: 35px;
-                padding-left: 15px;
-                margin-left: -14px;
-                border-left: 0px;
-            }
-            .corporate-wide-figures-selects div.styled-select select {
-                background: transparent;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                outline: none !important;
-                border: none;
-                font-size: 16px;
-                height: 65px;
-                padding: 5px;
-                /* If you add too much padding here, the options won't show in IE */
-                width: 310px;
-            }
-
-
-
-            @media(max-width:769px) and (min-width:768px) {
-                .heading {
-                    font-size: 60px;
-                    line-height: 54px;
+            .corporate-wide-figures-single img{display:none;}
+            @media(max-width: 480px) {
+                .build-a-start-up-culture .subheading {
+                    font-size: 17px;
+                    line-height: 25px;
+                    max-width: 200px;
+                    margin-bottom: 30px;
                 }
+                .heading {
+                    font-size: 50px;
+                    line-height: 50px;
+                }
+                .build-a-start-up-culture p {
+                    font-size: 17px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+
                 .build-a-start-up-culture {
                     background: url('../images/building-a-start-up-culture/bg-rocket-mobile.jpg') no-repeat bottom;
                     background-size: 100% auto;
                     padding-top: 50px;
                     padding-bottom: 180px;
                 }
+                .our-pride-values {
+                    padding-top: 70px;
+                    padding-bottom: 70px;
+                }
+                /*.images img,*/
+                .pride img,
                 .a-strong-dbs-team img.visual,
                 .our-pride-values img.visual {
-                    max-width: 320px;
+                    /*max-width: 320px !important;*/
+                }
+                .a-strong-dbs-team img.visual,
+                .our-pride-values img.visual {
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+                .pride .heading,
+                .a-strong-dbs-team .heading,
+                .our-pride-values .heading {
+                    font-size: 45px;
+                    text-align: center;
+                    margin-bottom: 50px;
+                    line-height: 42px;
+                    letter-spacing: -2px
+                }
+                .a-strong-dbs-team p,
+                .our-pride-values p {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+
+
+
+                .pride .subheading {
+                    font-size: 17px;
+                    margin-bottom: 60px;
+                    line-height: 34px;
+                    max-width: 860px;
+                }
+
+                .a-strong-dbs-team {
+                    padding-bottom: 50px;
+                }
+
+
+                .corporate-figures-header {
+                    background: url('../images/corporate-figures/bg-header-mobile.jpg') no-repeat bottom;
+                    background-size: contain;
+                    padding-top: 60px;
+                    padding-bottom: 140px;
+                }
+                .corporate-figures-header .subheading {
+                    font-size: 18px;
+                    margin-bottom: 30px;
+                    padding-left: 0px;
+                }
+                .corporate-figures-header .heading {
+                    font-size: 52px;
+                    padding-left: 0px;
+                }
+                .select-holders {
+                    background-color: #f4f0ea;
+                    border-top: 1px solid #000000;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+
+
+                .corporate-figures-menu-mobile.styled-select {
+                    margin: 10px;
+                    background: #ffffff url('../images/corporate-figures/arrow.jpg') no-repeat 92% 50%;
+                    background-size: 10px 5px;
+                    height: 40px;
+                    overflow: hidden;
+                    width: 90%;
+                    border: 1px solid #ebebeb;
+                    display: inline-block;
+                }
+                .corporate-figures-menu-mobile.styled-select select {
+                    background: transparent;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    outline: none !important;
+                    border: none;
+                    font-size: 18px;
+                    height: 40px;
+                    padding: 5px;
+                    /* If you add too much padding here, the options won't show in IE */
+                    width: 95%;
+                    margin-right:auto;
+                    margin-left:auto;
+                }
+                .corporate-figures-menu-mobile.styled-select.select-2 select {
+                    display: none;
+                }
+                .corporate-figures-menu-mobile.styled-select.select-2 select.active {
+                    display: block;
+                }
+
+
+                .milestone-country {
+                    padding-bottom: 30px;
+                    display: none;
+                }
+                .milestone-country.active {
+                    display: block;
+                }
+                .milestone-country .subheading {
+                    color: #000000;
+                    font-size: 17px;
+                    line-height: 25px;
+                }
+                .milestone-country h1 {
+                    margin-top: 70px;
+                    font-size: 42px;
+                    margin-bottom: 40px;
+                }
+                .milestone-country h3 {
+                    margin-top: 24px;
+                    font-size: 40px;
+                    color: #e00000
+                }
+                .milestone-country p {
+                    font-size: 16px;
+                    color: #777777;
+                    line-height: 22px;
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    margin-bottom: 30px;
+                }
+
+
+                .figures-by-country-single img {
+                    max-width: 600px !important;
+                    margin-bottom: 120px;
+                }
+
+
+
+                #corporate-wide-figures-mobile {
+                    padding-bottom: 120px;
+                }
+
+                .tab-pane .heading {
+                    margin-top: 50px;
+                    font-size: 36px;
+                    margin-bottom: 50px;
+                    line-height: 42px;
+                }
+                .tab-pane img {
+                    max-width: 320px !important;
+                    
+                }
+                .tab-pane img.chart {
+                    margin-bottom: 70px;
+                }
+            }
+
+            @media(min-width:768px) {
+
+                .subheading {
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+                .heading {
+                    font-size: 80px;
+                    line-height: 72px;
+                }
+
+                .build-a-start-up-culture {
+                    background: url('../images/building-a-start-up-culture/bg-rocket.jpg') center;
+                    background-size: cover;
+                    min-height: 720px;
+                    padding-top: 100px;
+                }
+                .our-pride-values {
+                    min-height: 720px;
+                    background: url('../images/building-a-start-up-culture/bg-spark.jpg') no-repeat center;
+                    background-size: contain;
+                    min-height: 720px;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                }
+                .our-pride-values img.visual {
+                    max-width: 400px;
+                }
+                .a-strong-dbs-team .heading,
+                .our-pride-values .heading {
+                    font-size: 49px;
+                }
+                .a-strong-dbs-team .heading,
+                .a-strong-dbs-team .subheading {
+                    padding-left: 20px
+                }
+                .a-strong-dbs-team p,
+                .our-pride-values p {
+                    color: #777777;
+                    font-size: 17px;
+                    line-height: 30px;
+                }
+
+                .pride .subheading {
+                    font-size: 24px;
+                    margin-bottom: 60px;
+                    line-height: 34px;
+                    max-width: 860px;
                 }
                 .pride img {
-                    max-width: 600px;
+                    max-width: 1200px;
+                }
+
+                .a-strong-dbs-team {
+                    padding-bottom: 200px;
+                }
+                .a-strong-dbs-team img.visual {
+                    max-width: 500px;
+                }
+
+
+                .corporate-figures-header {
+                    background: url('../images/corporate-figures/bg-header.jpg') no-repeat center;
+                    background-size: cover;
+                    min-height: 225px;
+                    padding-top: 70px;
+                }
+                .corporate-figures-menu {
+                    margin-bottom: 80px;
+                    border-top: 1px solid #ebebeb;
+                    border-bottom: 1px solid #ebebeb;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                }
+                .corporate-figures-menu a {
+                    font-size: 18px;
+                    color: #000000;
+                    margin: 0 20px;
+                    padding-bottom: 16px;
+                }
+                .corporate-figures-menu a.active {
+                    color: #e00000;
+                    border-bottom: 3px solid #e00000;
+                    text-decoration: none;
+                }
+                .corporate-figures-header .subheading {
+                    margin-bottom: 5px;
+                }
+                .corporate-figures-header .heading {
+                    font-size: 55px;
+                    line-height: 60px;
+                    letter-spacing: -2px;
+                }
+
+                .select-country {
+                    box-shadow: 0px 5px 15px #efefef;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    display: inline-block;
+                    min-width: 200px;
+                }
+                .select-country .header {
+                    background: #000000;
+                    color: #ffffff;
+                    font-size: 16px;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                }
+                ul.countries {
+                    margin: 0;
+                    list-style-type: none;
+                    padding: 0;
+                }
+                ul.countries li {}
+                ul.countries li.active,
+                ul.countries li:hover {
+                    background-color: #ebebeb;
+                }
+                ul.countries li a {
+                    font-size: 16px;
+                    color: #bcbcbc;
+                    display: block;
+                    padding: 15px 30px;
+                }
+                ul.countries li:hover a {
+                    text-decoration: none;
+                }
+                ul.countries li a img {
+                    max-width: 21px;
+                }
+                ul.countries li a img {
+                    display: none;
+                }
+                ul.countries li a img.bw {
+                    display: block;
+                }
+
+                ul.countries li.active a img {
+                    display: block;
+                }
+                ul.countries li.active a img.bw {
+                    display: none;
+                }
+                #milestones {
+                    background-image: url('../images/corporate-figures/spark-1.jpg'), url('../images/corporate-figures/spark-2.jpg');
+                    background-position: left 500px, right 80%;
+                    background-repeat: no-repeat, no-repeat;
+                    background-size: 130px 130px, 75px 75px;
+                }
+                #corporate-wide-figures {
+                    background-image: url('../images/corporate-figures/spark-3.jpg'), url('../images/corporate-figures/spark-4.jpg');
+                    background-position: left 50px, right 80%;
+                    background-repeat: no-repeat, no-repeat;
+                    background-size: 70px 70px, 120px 120px;
+                }
+
+                #figures-by-country {
+                    background-image: url('../images/corporate-figures/spark-4.jpg');
+                    background-position: 10% 500px;
+                    background-repeat: no-repeat;
+                    background-size: 130px 135px;
+                }
+
+                .corporate-figures-country {}
+                .milestone-country h1 {
+                    font-size: 40px;
+                    margin-top: 0px;
+                }
+                .milestone-country h3 {
+                    font-size: 28px;
+                    color: #000000;
+                }
+                .milestone-country p {
+                    font-size: 15px;
+                    color: #777777;
+                    line-height: 22px;
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    margin-bottom: 90px;
+                }
+                .milestone-country .text-right {
+                    padding-right: 35px;
+                    padding-bottom: 130px;
+                }
+                .milestone-country .text-left {
+                    border-left: 2px solid #000000;
+                    padding-left: 35px;
+                }
+                .milestone-country img {
+                    max-width: 200px !important;
                 }
                 .figures-by-country-single img {
-                max-width: 100% !important;
-                margin-bottom: 120px;
-            }
-            }
+                    max-width: 600px !important;
+                    margin-bottom: 120px;
+                }
+
+
+
+                #corporate-wide-figures {
+                    padding-bottom: 120px;
+                }
+                .corporate-wide-figures-single img {
+                    max-width: 700px !important;
+                }
+                .corporate-wide-figures-selects {
+                    margin-bottom: 70px;
+                }
+
+                div.styled-select {
+                    margin: 10px;
+                    background: #ffffff url('../images/corporate-figures/arrow.jpg') no-repeat 92% 50%;
+                    background-size: 10px 5px;
+                    height: 65px;
+                    overflow: hidden;
+                    width: 300px;
+                    border: 1px solid #ebebeb;
+                    display: inline-block;
+                }
+                .corporate-wide-figures-selects div.styled-select.select-1 {
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                    padding-left: 35px;
+                }
+                .corporate-wide-figures-selects div.styled-select.select-2 {
+                    background-position: 90% 50%;
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    padding-right: 35px;
+                    padding-left: 15px;
+                    margin-left: -14px;
+                    border-left: 0px;
+                }
+                .corporate-wide-figures-selects div.styled-select.select-2 select {
+                    display: none;
+                }
+                .corporate-wide-figures-selects div.styled-select.select-2 select.active {
+                    display: block;
+                }
+                .corporate-wide-figures-selects div.styled-select select {
+                    background: transparent;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    outline: none !important;
+                    border: none;
+                    font-size: 16px;
+                    height: 65px;
+                    padding: 5px;
+                    /* If you add too much padding here, the options won't show in IE */
+                    width: 310px;
+                }
+
+
+
+                @media(max-width:769px) and (min-width:768px) {
+                    .heading {
+                        font-size: 60px;
+                        line-height: 54px;
+                    }
+                    .build-a-start-up-culture {
+                        background: url('../images/building-a-start-up-culture/bg-rocket-mobile.jpg') no-repeat bottom;
+                        background-size: 100% auto;
+                        padding-top: 50px;
+                        padding-bottom: 180px;
+                    }
+                    .a-strong-dbs-team img.visual,
+                    .our-pride-values img.visual {
+                        max-width: 320px;
+                    }
+                    .pride img {
+                        max-width: 600px;
+                    }
+                    .figures-by-country-single img {
+                        max-width: 100% !important;
+                        margin-bottom: 120px;
+                    }
+                }
