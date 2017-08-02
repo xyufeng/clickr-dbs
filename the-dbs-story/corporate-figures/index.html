@@ -142,7 +142,7 @@
                                 <div class="text-center subheading">DBS has been innovating for nearly 50 years, with many achievements and milestones for the bank. We've collected some of our finest moment here. Do scroll through them and enjoy!</div>
                                 <div class="col-xs-12 col-sm-6 text-right">
                                     <h3>2016</h3>
-                                    <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-2016.jpg" />
+                                    <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-2016.png" />
                                     <p>Inked four strategic partnerships at the MOUs Signing Ceremony of the “China-Singapore (Chongqing) Demonstration Initiative on Strategic Connectivity”.</p>
                                     <h3>2015</h3>
                                     <p>First foreign bank in China to successfully issue a Basel III Tier 2 capital bond.</p>
@@ -155,7 +155,7 @@
                                 </div>
                                 <div class="col-sm-6 text-left" style="padding-top:140px;">
                                     <h3>2016</h3>
-                                    <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-2016-2.jpg" />
+                                    <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-2016-2.png" />
                                     <p>Officially launched a 15-year regional distribution agreement with Manulife Financial Asia Limited covering China, Singapore, Hong Kong, and Indonesia.</p>
                                     <h3>2015</h3>
                                     <p>First batch of banks selected to be a member bank of China’s first international payments system, designated to execute RMB clearing for all cross-border RMB transactions.</p>
@@ -164,7 +164,7 @@
                                     <h3>2011</h3>
                                     <p>Launched inaugural DBS-Fudan Banking Programme jointly with Shanghai Fudan University to identify talent for the bank.</p>
                                     <h3>2007</h3>
-                                    <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-2016-2.jpg" />
+                                    <img src="../../wp-content/themes/brand-portal/images/corporate-figures/china-2007.png" />
                                     <p>First few foreign banks and the first Singapore bank to incorporate in China as DBS Bank (China) Limited.</p>
                                 </div>
                             </div>
@@ -885,7 +885,7 @@
                                     <option value="china" data-target="#figures-by-country-mobile .figures-by-country-single">China</option>
                                     <option value="hongkong" data-target="#figures-by-country-mobile .figures-by-country-single">Hong Kong</option>
                                     <option value="india" data-target="#figures-by-country-mobile .figures-by-country-single">India</option>
-                                    <option value="Indonesia" data-target="#figures-by-country-mobile .figures-by-country-single">Indonesia</option>
+                                    <option value="indonesia" data-target="#figures-by-country-mobile .figures-by-country-single">Indonesia</option>
                                     <option value="singapore" data-target="#figures-by-country-mobile .figures-by-country-single">Singapore</option>
                                     <option value="taiwan" data-target="#figures-by-country-mobile .figures-by-country-single">Taiwan</option>
                                 </select>
@@ -1018,6 +1018,8 @@
         jQuery(".corporate-figures-menu-mobile #select-country").on("change", function() {
             var country = jQuery(this).val();
             var target = jQuery(this).find(":selected").attr("data-target");
+            console.log(target);
+            console.log(country);
             jQuery(target).removeClass("active");
             jQuery(target + "." + country).addClass("active");
 
